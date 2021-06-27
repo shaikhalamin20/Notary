@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding:0;
+}
+header{
+	padding: 15px 0;
+}
+.container{
+	width: 80%;
+	margin:0 auto;
+	border: 1px solid;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 79%;
+	float: right;
+	/*border: 1px solid;*/
+	margin-top: 10px;
+}
+.menu ul{
+	float: right;
+	padding: 0 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	color: green;
+	text-decoration: none;
+	padding: 0 15px;
+	display: inline-block;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.b_content{
+	width: 50%;
+	border:1px solid red;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.b_content h1{
+	font-family: sans-serif;
+    font-size: 56px;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.b_content button{
+	width: 260px;
+	height: 50px;
+	font-weight: 700;
+	color: white;
+	background-color:#be2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.b_content button:focus{
+	outline: 0px;
+}
